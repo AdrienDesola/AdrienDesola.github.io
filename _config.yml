@@ -1,0 +1,39 @@
+# Site settings
+baseurl: ""
+
+# Color settings (Hex value without #)
+color_alpha: bccedb
+color_beta: 34495e
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Instagram API
+instagram_key: 
+instagram_caption: true
+
+# SEO settings
+title: Adrien Desola
+description: Javascript Developper
+url: "adriendesola.github.io"
+email: adriendesola@gmail.com
+twitter_username: AdrienDesola
+default_img: 
+
+# Profile settings
+social:
+  twitter: http://twitter.com/AdrienDesola
+  github: http://github.com/AdrienDesola
+  linkedin: 'https://www.linkedin.com/in/adrien-desola-987940a3/'
+
+# Build settings
+exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Plugins
+plugins: [jekyll-sitemap, octopress-autoprefixer]
